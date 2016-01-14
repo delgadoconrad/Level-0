@@ -37,8 +37,10 @@ public class StarShow {
 			drawStar(starSize);
 			// 14. Increase the X position by star size. See Figure 2.
 			robot.setX(xPosition+starSize);
+			xPosition = xPosition+starSize;
 			// 15. decrease the Y position by star size. See Figure 3.
 			robot.setY(yPosition-starSize);
+			yPosition = yPosition-starSize;
 			// 16. Increase the star size by 20
 			starSize = starSize + 20; 
 			// 17. Turn the robot 12 degrees
